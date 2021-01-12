@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Онлайн-магазин шоколада "Smetankina"</title>
+      <link rel="shortcut icon" href="img/1.png">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+
+   <body>      
+        <div class="fon">
+            <div class="container">
+                <div class="chocolate">
+                    <img src="img/ягоды.jpg" >
+                    <div class="text">
+                        <h1>Сублимированные ягоды</h1>
+                        <p>Сублимация ягод происходит путём замораживания, где влага замерзает и превращается в лёд, затем почти полного обезвоживания в вакууме специально предназначенной машины. Таким способом ягода становится сухой, но при этом сохраняет до 95% своих полезных свойств, а так же насыщенный аромат и вкус.</p><hr>      
+                        <FORM name="form1">
+                            <h3><input type="radio" name="lan1" value=160>50 гр. - 160 руб.</h3>
+                            <h3><input type="radio" name="lan1" value=280>100 гр. - 280 руб.</h3>
+                            <h3><input type="radio" name="lan1" value=160>500 гр. - 160 руб.</h3>
+                            <h3><input type="radio" name="lan1" value=280>1 кг. - 280 руб.</h3><hr>
+                            <h3>Колличество:  <input type=text size=2 name=itemcount value=1></h3><hr>
+                            <h3>Общая стоимость:  <input type="Text" size=5 name="cc" value=""></h3><br>
+                            <div class="vkuss">
+                                <input type="button" class="btn3" value= Стоимость onClick="st()">
+                                <input type="reset" class="btn3" value="Сбросить">
+                                <input type="button" class="btn3" value= "Добавить в корзину" onClick="ank()"> 
+                            </div><br>
+                            <div class="vozv">
+                                <a href="index.html" >Вернуться на главную страницу</a>
+                             </div>
+                        </FORM>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+   </body>
+</html>

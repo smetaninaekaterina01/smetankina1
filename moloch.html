@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Онлайн-магазин шоколада "Smetankina"</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="img/1.png">
+   </head>
+
+   <body>      
+        <div class="fon">
+            <div class="container">
+                <div class="chocolate">
+                    <img src="img/молочный.jpg" >
+                    <div class="text">
+                        <h1>Молочный шоколад</h1>
+                        <p>Состав: какао тёртое, какао масло, сухое кокосовое молоко (40% VEGAN), урбеч из кешью, органический<br> кокосовый сахар</p><hr>      
+                        <FORM name="form1">
+                            <h3><input type="radio" name="lan1" value=160>50 гр. - 160 руб.</h3>
+                            <h3><input type="radio" name="lan1" value=280>90 гр. - 280 руб.</h3><hr>
+                            <h3>Колличество:  <input type=text size=2 name=itemcount value=1></h3><hr>
+                            <h3>Выбери добавку: </h3>
+                            <p>Добавка идёт в подарок </p>
+                            <div class="vkuss">
+                                <div class="vkus">
+                                    <h4>Ягоды: </h4>
+                                    <input type="checkbox" name="lan">Клубника<br>
+                                    <input type="checkbox" name="lan">Малина<br>
+                                    <input type="checkbox" name="lan">Вишня<br>
+                                </div>
+                                <div class="vkus">
+                                    <h4>Фрукты: </h4>
+                                    <input type="checkbox" name="lan">Кокос<br>
+                                    <input type="checkbox" name="lan">Персик<br>
+                                    <input type="checkbox" name="lan">Манго<br>
+                                </div> 
+                                <div class="vkus">
+                                    <h4>Орехи: </h4>
+                                    <input type="checkbox" name="lan">Фундук<br>
+                                    <input type="checkbox" name="lan">Миндаль<br>
+                                </div>
+                            </div><hr>
+                            <h3>Общая стоимость:  <input type="Text" size=5 name="cc" value=""></h3><br>
+                            <div class="vkuss">
+                                <input type="button" class="btn3" value= Стоимость onClick="st()">
+                                <input type="reset" class="btn3" value="Сбросить">
+                                <input type="button" class="btn3" value= "Добавить в корзину" onClick="ank()"> 
+                            </div><br>
+                            <div class="vozv">
+                                <a href="index.html" >Вернуться на главную страницу</a>
+                            </div>
+                        </FORM>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+   </body>
+</html>
